@@ -24,3 +24,6 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 })->name('register');
+
+Route::get('/Admin/home', function () {
+    return view('Admin/home'); })->name('Admin/home');

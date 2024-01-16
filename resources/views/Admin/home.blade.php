@@ -1,17 +1,10 @@
-@extends('master')
+@extends('header')
 
 @section('head')
 <!-- Additional head content specific to this page -->
 @endsection
 
 @section('content')
-<section>
-    @include('navbar')
-    @include('sidebar')
-    
-
-</section>
-
-
+@include('navbarA')
 
 @endsection
